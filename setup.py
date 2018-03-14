@@ -10,6 +10,6 @@ setup(name='nlp_rake',
       url='https://www.python.org/sigs/distutils-sig/',
       packages=['nlp_rake'],
       package_dir={'nlp_rake': './'},
-      package_data={'nlp_rake': ['data/']},
+      package_data={'nlp_rake': ['data/*.*']},
       include_package_data = True,
      )
